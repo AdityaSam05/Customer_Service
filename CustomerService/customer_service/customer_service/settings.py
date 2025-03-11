@@ -127,7 +127,7 @@ REST_FRAMEWORK = {
         'rest_framework.throttling.UserRateThrottle',  # Throttling enabled
     ],
     'DEFAULT_THROTTLE_RATES': {
-        'user': '10000/min',  # 10 requests per minute
+        'user': '10000/min',  # 10000 requests per minute
     }
 }
 
